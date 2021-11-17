@@ -1,17 +1,61 @@
 /* PAUL'S STYLES */
 
-/* erase this before commit!@ */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
 
+    /* erase this before commit!@ */
 * { 
-border: 1px red solid;
-
+/* border: 1px red solid; */
 }
+
 
 header {
  background-color: purple;
 }
 
 nav {
-    color: green;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color: #2a2a48;
+}
+
+#nav-logo {
     display: flex;
+    align-items: center;
+    
+}
+
+#tajam {
+    color: #67d8cd;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+
+#nav-menu {
+    /* background-color: blue; */
+
+    display: block;
+ font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#nav-menu a {
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+}
+
+#nav-menu a:hover
+{
+    color: #67d8cd;
 }
