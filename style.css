@@ -1,0 +1,17 @@
+/* PAUL'S STYLES */
+
+/* erase this before commit!@ */
+
+* { 
+border: 1px red solid;
+
+}
+
+header {
+ background-color: purple;
+}
+
+nav {
+    color: green;
+    display: flex;
+}
