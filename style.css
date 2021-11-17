@@ -19,18 +19,17 @@ nav {
  background-color: #2a2a48;
 }
 
-#nav-logo {
+.logo {
     display: flex;
     align-items: center;
-    
 }
 
 #tajam {
     color: #67d8cd;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 28px;
-    margin-left: 5px;
+    font-size: 27px;
+    margin-left: 8px;
 }
 
 
@@ -151,4 +150,59 @@ hr {
 #exp4, #exp5 {
     border-right: 1px solid #ddd;
 
+}
+
+
+footer {
+/* border: 2px red solid; */
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: white;
+background-image: url("./design-assets/bgk-footer.png");
+/* width: 1600px;
+height: 397px; */
+}
+
+#footer-main {
+    /* border: 1px red solid; */
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+justify-content: space-around;
+align-items: flex-start;
+line-height: 25px;
+
+}
+
+#footer-main h4 {
+    color: white;
+}
+
+#footer-logo, #our-studio, #stay-in-touch {
+    width: 28%;
+}
+
+#our-studio-address {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#our-studio-address div {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+#address p {
+    display: flex;
+    align-self: flex-start;
+    margin: none;
+    padding: none;
 }
