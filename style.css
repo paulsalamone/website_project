@@ -159,6 +159,10 @@ font-family: "Roboto", Arial, Helvetica, sans-serif;
 font-size: 13px;
 color: white;
 background-image: url("./design-assets/bgk-footer.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 /* width: 1600px;
 height: 397px; */
 }
