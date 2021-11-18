@@ -104,7 +104,6 @@ h3 {
     align-items: center;
     justify-content: flex-start;
     width: 26%;
-    /* border: 1px blue solid; */
     padding: 25px;
     
 }
@@ -112,7 +111,6 @@ h3 {
 .expert-class img {
     width: auto;
     height: 35px;
-    border: 1px red
 }
 
 h4 {
@@ -154,7 +152,6 @@ hr {
 
 
 footer {
-/* border: 2px red solid; */
 font-family: "Roboto", Arial, Helvetica, sans-serif;
 font-size: 13px;
 color: white;
@@ -162,19 +159,16 @@ background-image: url("./design-assets/bgk-footer.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-
-/* width: 1600px;
-height: 397px; */
+padding: 3%;
 }
 
 #footer-main {
-    /* border: 1px red solid; */
 display: flex;
 flex-direction: row;
-/* flex-wrap: wrap; */
 justify-content: space-around;
 align-items: flex-start;
 line-height: 25px;
+margin-bottom: 40px;
 
 }
 
@@ -183,30 +177,76 @@ line-height: 25px;
 }
 
 #footer-logo, #our-studio, #stay-in-touch {
-    width: 28%;
+    width: 30%;
+
+}
+
+#footer-logo {
+    width: 25%;
 }
 
 #our-studio-address {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid green; */
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
+}
+
+#our-studio-icons {
+    margin-right: 7px;
 }
 
 #our-studio-address div {
     display: flex;
     flex-direction: column;
-    /* border: 1px red solid; */
     align-items: flex-start;
     justify-content: flex-start;
 }
 
+#subscribe {
+width: 100%;
+margin-bottom: 20px;
+}
 
+#subscribe-button {
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 36px;
+    padding-right: 10px;
+    border: 1px solid #000000;
+    background:  url("./design-assets/png/./design-assets/png/paper122.png") no-repeat 10px center;
+    cursor: pointer;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 15px;
+  }
 
-#address p {
+#subscribe-text {
+    border: 1px solid rgba(255, 255, 255, 0.351);
+    background-color: rgba(128, 128, 128, 0);
+    padding: 12px;
+    color: white;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 55%;
+}
+
+#subscribe-form {
     display: flex;
-    align-self: flex-start;
-    margin: none;
-    padding: none;
+    flex-direction: row;
+    align-items: center;
+}
+
+#airplane {
+    background-color: rgba(255, 255, 255, 0.516);
+    padding: 7px 20px 7px 20px;
+}
+
+#footer-bottom {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
