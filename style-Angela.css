@@ -1,0 +1,61 @@
+h2 {
+    font-family: roboto black serif;
+}
+
+p {
+    font-family:  'Playfair Display', sans-serif; 
+    line-height: 1.3;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    color:#7b8288 ;  
+}
+.container {
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    opacity:0.8;
+    vertical-align: text-top;
+}
+
+.left {
+    align-items: center;
+    padding-left: 500px;
+    display: inline-flex ;
+    height: 100%;
+  width: 80%;
+}
+
+.right { 
+align-items: left;
+padding-right:100px;
+display: inline-flex;
+flex-direction: column;
+}
+
+.background {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+}
+.Play {
+    position:absolute;
+    padding-bottom: 1.5rem;
+  padding-left: 0.875rem;
+  transition: transform 500ms;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  
+}
+.watch-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#story
+{
+color:white;
+}
