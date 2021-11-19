@@ -1,0 +1,131 @@
+h2 { 
+    font-family: roboto black serif;
+}
+
+p {  font-family:  'Playfair Display', sans-serif; 
+    line-height: 1.3;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    color:#7b8288 ;  
+}
+.container {
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    opacity:0.8;
+    vertical-align: text-top;
+}
+
+.left {
+    align-items: center;
+    padding-left: 500px;
+    display: inline-flex ;
+    height: 100%;
+  width: 80%;
+}
+
+.right { 
+align-items: left;
+padding-right:100px;
+display: inline-flex;
+flex-direction: column;
+}
+
+.background {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+}
+.Play {
+    position:absolute;
+    padding-bottom: 1.5rem;
+  padding-left: 0.875rem;
+  transition: transform 500ms;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  
+}
+.watch-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#story
+{
+color:white;
+}
+
+h5
+{
+  display:flex
+justify-content: center;
+}
+
+hr 
+{ display: block;
+    width: 60px;
+    color: #817f86;
+    margin-left: 48%;
+}
+
+#Lorem
+{ justify-content: center;
+    top: 50%;
+    left: 50%;
+    
+   
+}
+
+.box {
+    display: flex;
+    border: 2px white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .box_item {
+    background-color: dodgerblue;
+  height: 220px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+  flex-direction: row;
+  
+
+  }
+  .container {
+    display: flex;
+    border: 2px silver;
+    padding: 2.5px;
+    position: relative;
+    justify-content: center;
+    
+  }
+
+  .container_item {
+    background-color: dodgerblue;
+  height: 80px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+  flex-direction: row;
+  }
+
+.members
+ { display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+
+
