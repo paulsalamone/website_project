@@ -344,7 +344,7 @@ footer {
     align-items: flex-start;
     line-height: 25px;
     margin-bottom: 40px;
-    
+
     }
     
     #footer-main h4 {
@@ -381,7 +381,12 @@ footer {
     #subscribe {
     width: 100%;
     margin-bottom: 20px;
-    }
+    /* border: 5px red solid; */
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+
+}
     
     #subscribe-button {
         height: 32px;
@@ -405,13 +410,15 @@ footer {
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         font-weight: 100;
         letter-spacing: 1px;
-        width: 55%;
+        width: 75%;
     }
     
     #subscribe-form {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        width: 90%;
     }
     
     #airplane {
@@ -905,5 +912,67 @@ input[type=text], select, textarea {
         border-right: 0px;
         border-top: 0px;
     }
+
+
+    #footer-main {
+        display: flex;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 25px;
+        margin-bottom: 40px;
+    
+        }
+
+    #footer-logo, #our-studio, #stay-in-touch {
+            width: 90%;
+            /* color: red; */
+        }
+
+    #our-studio-address {
+            justify-content: center;
+            align-items: flex-start;
+            }
+
+        #our-studio h4, #stay-in-touch h4 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        #footer-main p {
+            text-align: center;
+        }
+
+
+        #subscribe {
+            justify-content: center;
+
+        }
+
+        #subscribe-text {
+            width: 85%;
+         }
+        
+         #socialmedia {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }
+
+         #footer-bottom {
+            margin-bottom: 20px;
+            /* border: 1px red solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #footer-bottom1, #footer-bottom2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
 
   }
