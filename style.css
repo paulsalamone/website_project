@@ -3,11 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
 
 
+
+
+
 /* GUIDES (UNCOMMENT TO VIEW) */
 * { 
     /* border: 1px red solid; */
  }
 
+html {
+    /* font-size: 16px; */
+}
 
 
 /*   HEADER STYLES   */
@@ -217,11 +223,6 @@ justify-content: center;
 /*  EXPERTISE STYLES */
 /* ('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap'); */
 
-#expertise-section h2 {
-    font-family: "Playfair Display", 'Times New Roman', Times, serif ;
-    color: #222;
-}
-
 #expertise-section {
     display: flex;
     flex-direction: column;
@@ -229,6 +230,28 @@ justify-content: center;
     justify-content: flex-start;
     /* border: 3px red solid; */
     padding: 0px;
+    font-size: 12px;
+}
+
+#expertise-section h2 {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif ;
+    color: #222;
+    font-size: 2em;
+}
+
+#expertise-section h3 {
+    color: grey;
+    font-size: 1em;
+    font-family: "Playfair Display";
+    font-weight: 700;
+}
+
+#expertise-section h4 {
+    color:#333;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5 em
+    margin-bottom: 20px;
 }
 
 #expertises {
@@ -236,7 +259,8 @@ justify-content: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1em;
+    /* max-width: 250px; */
 }
 
 .expert-class {
@@ -246,30 +270,27 @@ justify-content: center;
     align-items: center;
     justify-content: flex-start;
     width: 26%;
+    /* max-width: 250px; */
     /* border: 1px blue solid; */
     padding: 25px;
     
 }
 
-.expert-class img {
-    width: auto;
-    height: 35px;
-    border: 1px red
+.expert-class embed {
+    /* width: auto;
+    height: 35px; */
+    /* border: 1px red; */
+    /* background-color: grey; */
+    height: em;
 }
 
-h4 {
-    color:#333;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 11px;
-    margin-bottom: 20px;
-}
+
 
 .expert-class p {
     color:#333;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1em;
     line-height: 18px;
     text-align: center;
 }
@@ -760,3 +781,66 @@ input[type=text], select, textarea {
     display: flex;
     align-items: center;
 }
+
+
+
+
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+
+@media only screen and (max-width: 720px) {
+    * { 
+        /* border: 1px red solid; */
+     }
+
+    body {
+      font-size: 12px;
+    }
+
+    #expertise-section {
+        /* border: 5px green solid; */
+    }
+
+    #expertises {
+        /* border: 5px green solid; */
+        flex-flow: column nowrap;
+        margin-top: 1em;
+    }
+
+
+
+    .expert-class {
+        color: green;
+        display: flex;
+        /* flex-flow: column wrap; */
+        align-items: center;
+        width: 80%;
+        /* max-width: 250px; */
+        /* border: 1px blue solid; */
+        padding: 25px;
+        
+    }
+
+    .expert-class p {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .expert-class h4 {
+        margin-bottom: 5px;
+    }
+
+
+    #exp1, #exp2, #exp3, #exp4, #exp5, #exp6 {
+        border-bottom: 1px #ddd solid;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+    }
+
+  }
