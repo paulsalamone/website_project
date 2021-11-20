@@ -240,8 +240,10 @@ justify-content: center;
 
 #expertise-section h2 {
     font-family: "Playfair Display", 'Times New Roman', Times, serif ;
-    color: #222;
-    font-size: 2em;
+    color: #555;
+    letter-spacing: 1px;
+    font-size: 1.8em;
+    margin-bottom: 5px;
 }
 
 #expertise-section h3 {
@@ -260,7 +262,7 @@ justify-content: center;
 }
 
 #expertises {
-    /* border: 1px red solid; */
+    /* border: 4px red solid; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -868,11 +870,12 @@ input[type=text], select, textarea {
     #expertises {
         /* border: 5px green solid; */
         flex-flow: column nowrap;
+        align-items: center;
         margin-top: 1em;
     }
 
     .expert-class {
-        color: green;
+        border: green 5px solid;
         display: flex;
         /* flex-flow: column wrap; */
         align-items: center;
@@ -880,16 +883,19 @@ input[type=text], select, textarea {
         /* max-width: 250px; */
         /* border: 1px blue solid; */
         padding: 25px;
+        text-align: center;
         
     }
 
     .expert-class p {
         width: 70%;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
+        margin-top: 2px;
+        text-align: center;
     }
 
     .expert-class h4 {
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
 
 
