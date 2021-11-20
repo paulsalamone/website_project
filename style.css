@@ -12,14 +12,16 @@
 
 /*   HEADER STYLES   */
 header {
- background-color: purple;
+ /* background-color: purple; */
+ background-image: url("design-assets/bgk-header.png");
+ background-image: no-repeat;
 }
 
 nav {
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- background-color: #2a2a48;
+ /* background-color: #2a2a48; */
 }
 
 .logo {
@@ -428,10 +430,10 @@ h3 {
 }
 
 
-.container {
+.hero-container {
 
-    background-image: url("design-assets/bgk-header.png");
-    background-image: no-repeat;
+    /* background-image: url("design-assets/bgk-header.png");
+    background-image: no-repeat; */
     display: flex;
     color: white;
     height: 650px;
@@ -487,6 +489,8 @@ hr {
                 0 1px 5px 0 #15f4ee inset, 0 1px 5px 0 #15f4ee;
     text-shadow: 0 5 10px #15f4ee, 0 5 10px #068884;
 }
+
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
