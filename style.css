@@ -152,7 +152,7 @@ color:white;
 
 h5
 {
-  display:flex
+  display:flex;
 justify-content: center;
 }
 
@@ -181,7 +181,7 @@ justify-content: center;
   display: flex;
   position: relative;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
   flex-direction: row;
   }
 
@@ -202,7 +202,8 @@ justify-content: center;
   display: flex;
   position: relative;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+
   flex-direction: row;
   }
 
@@ -214,6 +215,12 @@ justify-content: center;
 
 
 /*  EXPERTISE STYLES */
+/* ('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap'); */
+
+#expertise-section h2 {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif ;
+    color: #222;
+}
 
 #expertise-section {
     display: flex;
@@ -288,6 +295,8 @@ hr {
 
 }
 
+
+/*  FOOTER  */
 
 footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -414,7 +423,7 @@ h1 {
     font-weight: normal;
     color: white;
     text-align: center;
-    font-family: 'Roboto light';
+    font-family: 'Playfair Display';
 }
 
 h3 {
@@ -578,13 +587,13 @@ input[type=text], select, textarea {
 
 
 
-h1 {
+/* h1 {
     font-size: 30px;
     font-weight: normal;
     color: white;
     text-align: center;
     font-family: 'Roboto light';
-}
+} */
 
 h3 {
 
