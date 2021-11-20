@@ -1,134 +1,15 @@
+* { 
+    /* border: 1px red solid; */
+    }
 
-p {  font-family:  'Playfair Display', sans-serif; 
-    line-height: 1.3;
-    margin-top: 0 ;
-    margin-bottom: 0 ;
-    color:#7b8288 ;  
-}
-.container {
-    display: flex;
-    background: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    align-items: center;
-    opacity:0.8;
-    vertical-align: text-top;
-}
-
-.left {
-    align-items: center;
-    padding-left: 500px;
-    display: inline-flex ;
-    height: 100%;
-  width: 80%;
-}
-
-.right { 
-align-items: left;
-padding-right:100px;
-display: inline-flex;
-flex-direction: column;
-}
-
-.background {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center; 
-}
-.Play {
-    position:absolute;
-    padding-bottom: 1.5rem;
-  padding-left: 0.875rem;
-  transition: transform 500ms;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  
-}
-.watch-section {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-#story
-{
-color:white;
-}
-
-h5
-{
-  display:flex
-justify-content: center;
-}
-
-
-#Lorem
-{ justify-content: center;
-    top: 50%;
-    left: 50%;
-    
-   
-}
-
-.box {
-    display: flex;
-    border: 2px white;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .box_item {
-    background-color: dodgerblue;
-  height: 220px;
-  width: 200px;
-  border: 1px solid lightgrey;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;}
-  flex-direction: row;
-  
-
-  }
-  .container {
-    display: flex;
-    border: 2px silver;
-    padding: 2.5px;
-    position: relative;
-    justify-content: center;
-    
-  }
-
-  .container_item {
-    background-color: dodgerblue;
-  height: 80px;
-  width: 200px;
-  border: 1px solid lightgrey;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;}
-  flex-direction: row;
-  }
-
-.members
- { display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;}
-
-
-/* PAUL'S STYLES */
 
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
 
-* { 
-/* border: 1px red solid; */
-}
 
 
+
+
+/*   HEADER STYLES   */
 header {
  background-color: purple;
 }
@@ -213,6 +94,130 @@ h3 {
     margin-bottom: 8px;
 }
 
+/*   OUR STORY STYLES  */
+  p {  font-family:  'Playfair Display', sans-serif; 
+    line-height: 1.3;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    color:#7b8288 ;  
+}
+.story-container {
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    opacity:0.8;
+    vertical-align: text-top;
+}
+
+.left {
+    align-items: center;
+    padding-left: 500px;
+    display: inline-flex ;
+    height: 100%;
+  width: 80%;
+}
+
+.right { 
+align-items: left;
+padding-right:100px;
+display: inline-flex;
+flex-direction: column;
+}
+
+.background {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+}
+.Play {
+    position:absolute;
+    padding-bottom: 1.5rem;
+  padding-left: 0.875rem;
+  transition: transform 500ms;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  
+}
+.watch-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#story
+{
+color:white;
+}
+
+h5
+{
+  display:flex
+justify-content: center;
+}
+
+
+#Lorem
+{ justify-content: center;
+    top: 50%;
+    left: 50%;
+    
+   
+}
+
+.box {
+    display: flex;
+    border: 2px white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .box_item {
+    background-color: dodgerblue;
+  height: 220px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+  flex-direction: row;
+  }
+
+  .container {
+    display: flex;
+    border: 2px silver;
+    padding: 2.5px;
+    position: relative;
+    justify-content: center;
+    
+  }
+
+  .container_item {
+    background-color: dodgerblue;
+  height: 80px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+  flex-direction: row;
+  }
+
+.members
+ { display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;}
+
+
+/*  EXPERTISE STYLES */
+
+
 #expertises {
     /* border: 1px red solid; */
     display: flex;
@@ -284,59 +289,462 @@ hr {
 
 
 footer {
-/* border: 2px red solid; */
-font-family: "Roboto", Arial, Helvetica, sans-serif;
-font-size: 13px;
-color: white;
-background-image: url("./design-assets/bgk-footer.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-/* width: 1600px;
-height: 397px; */
-}
-
-#footer-main {
-    /* border: 1px red solid; */
-display: flex;
-flex-direction: row;
-/* flex-wrap: wrap; */
-justify-content: space-around;
-align-items: flex-start;
-line-height: 25px;
-
-}
-
-#footer-main h4 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 13px;
     color: white;
-}
-
-#footer-logo, #our-studio, #stay-in-touch {
-    width: 28%;
-}
-
-#our-studio-address {
+    background-image: url("./design-assets/bgk-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+    }
+    
+    #footer-main {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid green; */
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
+    line-height: 25px;
+    margin-bottom: 40px;
+    
+    }
+    
+    #footer-main h4 {
+        color: white;
+    }
+    
+    #footer-logo, #our-studio, #stay-in-touch {
+        width: 30%;
+    
+    }
+    
+    #footer-logo {
+        width: 25%;
+    }
+    
+    #our-studio-address {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #our-studio-icons {
+        margin-right: 7px;
+    }
+    
+    #our-studio-address div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    #subscribe {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    #subscribe-button {
+        height: 32px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-left: 36px;
+        padding-right: 10px;
+        border: 1px solid #000000;
+        background:  url("./design-assets/png/./design-assets/png/paper122.png") no-repeat 10px center;
+        cursor: pointer;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 1px;
+        padding: 15px;
+      }
+    
+    #subscribe-text {
+        border: 1px solid rgba(255, 255, 255, 0.351);
+        background-color: rgba(128, 128, 128, 0);
+        padding: 12px;
+        color: white;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 1px;
+        width: 55%;
+    }
+    
+    #subscribe-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #airplane {
+        background-color: rgba(255, 255, 255, 0.516);
+        padding: 7px 20px 7px 20px;
+    }
+    
+    #footer-bottom {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+
+    /* SEB STYLES ======================== */
+
+
+
+
+
+
+
+    /* * {
+    border: 1px red solid;
+} */
+
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto light';
 }
 
-#our-studio-address div {
+h3 {
+
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto light';
+    margin: 0;
+    line-height: 160%;
+
+}
+
+
+.container {
+
+    background-image: url("design-assets/bgk-header.png");
+    background-image: no-repeat;
     display: flex;
+    color: white;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    /* border: 1px red solid; */
-    align-items: flex-start;
-    justify-content: flex-start;
+
+
+
+}
+
+.bg-image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+      }
+
+.bg-image-text2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    
+      
+}
+
+
+hr {
+    border: .1px solid #5ec6c0;
+    width: 45px;
+    margin-bottom: 35px;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 75px;
+    padding: 9px;
+    margin-top: 50px;
+    font-size: 10px;
+    color: #15f4ee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border: 1px solid #15f4ee;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.button:hover {
+    box-shadow: 0 1px 5px 0 #15f4ee inset, 0 1px 5px 0 #15f4ee,
+                0 1px 5px 0 #15f4ee inset, 0 1px 5px 0 #15f4ee;
+    text-shadow: 0 5 10px #15f4ee, 0 5 10px #068884;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container-of-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+    .image-container { 
+        width:130px;
+        height:70px;
+        text-align:center;
+        float: left;
+        object-fit: cover;
+        
+  }
+
+  .container-logos {
+
+    display: flex;
+    color: white;
+    height: 100px; /* <---  */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .container-zara {
+    
+    
+    background-image: no-repeat;
+    display: flex;
+    color: rgb(190, 29, 29);
+    max-height: 15%;
+    max-width: 15%;
+    flex-direction: column;
+
+    /* align-items: center; */
+   
+    
+}
+
+
+.container-mango {
+
+    
+    background-image: no-repeat;
+    display: flex;
+    color: rgb(190, 29, 29);
+    max-height: 15%;
+    max-width: 15%;
+    flex-direction: column;
+
+    
 }
 
 
 
-#address p {
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto light';
+}
+
+h3 {
+
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto light';
+    margin: 0;
+    line-height: 160%;
+
+}
+
+
+.container {
+
+    background-image: url("design-assets/bgk-header.png");
+    background-image: no-repeat;
     display: flex;
-    align-self: flex-start;
-    margin: none;
-    padding: none;
+    color: white;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.bg-image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+      }
+
+.bg-image-text2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    
+      
+}
+
+
+hr {
+    border: .1px solid #5ec6c0;
+    width: 45px;
+    margin-bottom: 35px;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 75px;
+    padding: 9px;
+    margin-top: 50px;
+    font-size: 10px;
+    color: #15f4ee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border: 1px solid #15f4ee;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.button:hover {
+    box-shadow: 0 1px 5px 0 #15f4ee inset, 0 1px 5px 0 #15f4ee,
+                0 1px 5px 0 #15f4ee inset, 0 1px 5px 0 #15f4ee;
+    text-shadow: 0 5 10px #15f4ee, 0 5 10px #068884;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container-of-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+    .image-container { 
+        width:130px;
+        height:70px;
+        text-align:center;
+        float: left;
+        object-fit: cover;
+        
+  }
+
+  .container-logos {
+
+    display: flex;
+    color: white;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .container-logorow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    padding: 10px;
+  }
+
+  .container-logorow img {
+    /* border: 2px black solid; */
+    width: auto;
+    max-width: 140px;
+    height: auto;
+    max-height: 50px;
+  }
+
+
+  .container-zara {
+    background-image: no-repeat;
+    color: rgb(190, 29, 29);
+    /* max-height: 15%;
+    max-width: 15%; */
+    max-width: 145px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container-mango {
+    background-image: no-repeat;
+    color: rgb(190, 29, 29);
+    /* max-height: 15%;
+    max-width: 15%; */
+    width: auto;
+    display: flex;
+    align-items: center;
 }
