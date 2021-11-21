@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 h2 {
   font-family: roboto serif;
   color: black;
 }
+=======
+>>>>>>> 2077a44f5a06b3e278d35488874083f98af846e4
 
 p {
   font-family: "Playfair Display", sans-serif;
@@ -55,6 +58,7 @@ p {
   padding-left: 0.875rem;
   transition: transform 500ms;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: white;
 }
 .watch-section {
   display: flex;
@@ -78,12 +82,15 @@ hr {
   border: 3px solid green;
 }
 
+<<<<<<< HEAD
 #Lorem {
   justify-content: center;
   display: flex;
   position: relative;
   border: 3px solid green;
 }
+=======
+>>>>>>> 2077a44f5a06b3e278d35488874083f98af846e4
 
 .background2 {
   display: flex;
@@ -150,5 +157,230 @@ hr {
   display: flex;
   position: relative;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center;
+=======
+  align-items: center;}
+
+
+/* PAUL'S STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
+
+* { 
+/* border: 1px red solid; */
+}
+
+
+header {
+ background-color: purple;
+}
+
+nav {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color: #2a2a48;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#tajam {
+    color: #67d8cd;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 27px;
+    margin-left: 8px;
+}
+
+
+#nav-menu {
+    /* background-color: blue; */
+
+    display: block;
+ font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#nav-menu a {
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+}
+
+#nav-menu a:hover
+{
+    color: #67d8cd;
+}
+
+#expertise-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 3px red solid; */
+    padding: 0px;
+}
+
+h2 {
+/*      font-family: roboto black serif; */
+   
+
+  font-family: "Playfair Display";
+    font-weight: 700;
+
+    color: #333;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+
+}
+
+h3 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    color: #999;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+#expertises {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.expert-class {
+    color: green;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 26%;
+    /* border: 1px blue solid; */
+    padding: 25px;
+    
+}
+
+.expert-class img {
+    width: auto;
+    height: 35px;
+    border: 1px red
+}
+
+h4 {
+    color:#333;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.expert-class p {
+    color:#333;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+hr {
+/*   display: block;
+    width: 60px;
+    color: #817f86;
+    margin-left: 48%;  
+   */
+  
+  border: .5px solid #ccc;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+#exp1, #exp2 {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#exp3 {
+    border-bottom: 1px solid #ddd;
+}
+
+#exp4, #exp5 {
+    border-right: 1px solid #ddd;
+
+}
+
+
+footer {
+/* border: 2px red solid; */
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: white;
+background-image: url("./design-assets/bgk-footer.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+/* width: 1600px;
+height: 397px; */
+}
+
+#footer-main {
+    /* border: 1px red solid; */
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+justify-content: space-around;
+align-items: flex-start;
+line-height: 25px;
+
+}
+
+#footer-main h4 {
+    color: white;
+}
+
+#footer-logo, #our-studio, #stay-in-touch {
+    width: 28%;
+}
+
+#our-studio-address {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#our-studio-address div {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+#address p {
+    display: flex;
+    align-self: flex-start;
+    margin: none;
+    padding: none;
+>>>>>>> 2077a44f5a06b3e278d35488874083f98af846e4
 }
