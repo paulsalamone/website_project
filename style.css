@@ -1,8 +1,3 @@
-html {
-  margin: 0;
-  padding: 0;
-}
-
 h2 {
   font-family: roboto serif;
   color: black;
@@ -18,30 +13,30 @@ p {
 .general {
   display: flex;
   justify-content: center;
-  align-items: center;
   display: flex;
-  left: 0;
-  top: 0;
-  gap: 100px;
+  align-items: center;
+  opacity: 0.8;
 }
 
 .general1 {
-  align-items: center;
-  display: inline-flex;
-  padding-left: 500px;
-  height: 80%;
-  weight: 100%;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+  padding-left: 200px;
+  margin-left: 700px;
+  margin-right: 50px;
 }
 
 .general2 {
+  align-items: left;
+  height: 100%;
+  width: 200%;
   display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: #7b8288;
-  column-count: 1;
-  margin-right: 120px;
+  flex-direction: column;
+  color: #615f66;
+  padding-right: 230px;
+  margin-right: 400px;
 }
 
 .background {
@@ -49,11 +44,11 @@ p {
   position: relative;
   justify-content: center;
   align-items: center;
+  object-fit: fill;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
 }
+
 .Play {
   position: absolute;
   padding-bottom: 1.5rem;
@@ -68,6 +63,7 @@ p {
   align-items: center;
   color: white;
 }
+
 h5 {
   display: flex;
   font-family: roboto black serif;
@@ -79,12 +75,14 @@ hr {
   width: 60px;
   color: #615f66;
   position: absolute;
+  border: 3px solid green;
 }
 
 #Lorem {
   justify-content: center;
   display: flex;
   position: relative;
+  border: 3px solid green;
 }
 
 .background2 {
@@ -96,18 +94,22 @@ hr {
   height: auto;
   width: auto;
   z-index: -1;
+  border: 3px solid green;
 }
 
 .box {
   position: absolute;
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   row-gap: 2px;
+  border: 3px solid green;
+}
+.Intro {
+  border: 3px solid green;
 }
 
 .box_item {
@@ -117,10 +119,10 @@ hr {
   border: 1px solid lightgrey;
   display: flex;
   position: relative;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
   row-gap: 2px;
+  border: 3px solid green;
 }
 
 .Items {
@@ -131,6 +133,7 @@ hr {
   height: 100px;
   width: 100px;
   flex-direction: row;
+  border: 3px solid green;
 }
 
 .container_item {
@@ -139,6 +142,8 @@ hr {
   height: 100px;
   width: 100px;
   border: 1px solid lightgrey;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .members {
