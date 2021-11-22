@@ -1,4 +1,3 @@
-
 /* IMPORT FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
 
@@ -78,7 +77,41 @@ nav {
 
 /*   OUR STORY STYLES  */
 
+p {
+  font-family: "Playfair Display", sans-serif;
+  line-height: auto;
+  margin-top: 1;
+  margin-bottom: 1;
+}
 
+.general {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.general1 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+  padding-left: 200px;
+  margin-left: 700px;
+  margin-right: 50px;
+}
+
+.general2 {
+  align-items: left;
+  height: 100%;
+  width: 200%;
+  display: flex;
+  flex-direction: column;
+  color: #615f66;
+  padding-right: 230px;
+  margin-right: 400px;
+  
 #our_story-section h2 {
 /*      font-family: roboto black serif; */
    
@@ -137,20 +170,24 @@ flex-direction: column;
 }
 
 .background {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center; 
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
+
 .Play {
-    position:absolute;
-    padding-bottom: 1.5rem;
+  position: absolute;
+  padding-bottom: 1.5rem;
   padding-left: 0.875rem;
   transition: transform 500ms;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  
+  color: white;
 }
 .watch-section {
+
     display: flex;
     position: relative;
     justify-content: center;
@@ -193,6 +230,10 @@ justify-content: center;
   position: relative;
   justify-content: center;
   align-items: center;
+      color: white;
+}
+
+h5 {
   flex-direction: row;
   }
 
@@ -211,21 +252,231 @@ justify-content: center;
   width: 200px;
   border: 1px solid lightgrey;
   display: flex;
-  position: relative;
+  position: absolute;
+  font-family: roboto serif;
+  color: rgb(245, 237, 237);
   justify-content: center;
+  font-size: 20px;
   align-items: center;
 
   flex-direction: row;
-  }
+}
 
-.members
- { display: flex;
+.Intro {
+  display: flex;
+  color: rgb(133, 129, 129);
+  height: 100px;
+  weight: 20px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  columns: 1;
+  text-align: right;
+}
+hr {
+  display: block;
+  width: 60px;
+  color: #474649;
+  position: relative;
+  border: 3px solid rgb(18, 88, 18);
+}
+
+.boxes {
+  display: flex;
+  text-align: right;
+  flex-direction: row;
+  background-color: white;
+  gap: 7px;
+}
+.box_items {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  background-color: rgb(131, 70, 150);
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid gray;
+  position: relative;
+}
+.members {
+  background-image: url("./design-assets/bgk-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10%;
+}
+.part {
+  color: white;
+}
+.amazing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.Fame {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  gap: 5px;
+}
+
+.team-member {
+  display: flex;
+  height: 300px;
+  weight: 200px;
+  background-color: rgb(245, 245, 245);
+}
+.team-member-namejob {
+  border: 2px silver;
+  align-self: flex-end;
+  color: white;
+  background-color: rgb(103, 80, 126);
+}
+.team-member-photo {
+  background-color: white;
+}
+/* PAUL'S STYLES */
+
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap");
+
+* {
+  /* border: 1px red solid; */
+}
+
+header {
+  background-color: purple;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2a2a48;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#tajam {
+  color: #67d8cd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  margin-left: 8px;
+}
+
+#nav-menu {
+  /* background-color: blue; */
+
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+#nav-menu a {
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#nav-menu a:hover {
+  color: #67d8cd;
+}
+
+#expertise-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 3px red solid; */
+  padding: 0px;
+}
+
+h2 {
+  /*      font-family: roboto black serif; */
+
+  font-family: "Playfair Display";
+  font-weight: 700;
+
+  color: #333;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #999;
+  font-size: 12px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+
+#expertises {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;}
+  margin-top: 20px;
+}
 
+.expert-class {
+  color: green;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 26%;
+  /* border: 1px blue solid; */
+  padding: 25px;
+}
 
-/*  EXPERTISE STYLES */
+.expert-class img {
+  width: auto;
+  height: 35px;
+  border: 1px red;
+}
+
+h4 {
+  color: #333;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.expert-class p {
+  color: #333;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+hr {
+  /*   display: block;
+    width: 60px;
+    color: #817f86;
+    margin-left: 48%;  
+   */
+
+  border: 0.5px solid #ccc;
+  width: 45px;
+  margin-bottom: 10px;
+
+  /*  EXPERTISE STYLES */
 /* ('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap'); */
 
 #expertise-section {
@@ -309,19 +560,21 @@ hr {
     margin-bottom: 10px;
 }
 
-#exp1, #exp2 {
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+#exp1,
+#exp2 {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 #exp3 {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
-#exp4, #exp5 {
-    border-right: 1px solid #ddd;
-
+#exp4,
+#exp5 {
+  border-right: 1px solid #ddd;
 }
+
 
 
 /*  FOOTER  */
@@ -442,6 +695,48 @@ footer {
 
     /* SEB STYLES ======================== */
 
+#footer-main {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: flex-start;
+  line-height: 25px;
+}
+
+#footer-main h4 {
+  color: white;
+}
+
+#footer-logo,
+#our-studio,
+#stay-in-touch {
+  width: 28%;
+}
+
+#our-studio-address {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green; */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#our-studio-address div {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px red solid; */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#address p {
+  display: flex;
+  align-self: flex-start;
+  margin: none;
+  padding: none;
+=======
 
 
 
