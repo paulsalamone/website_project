@@ -73,6 +73,35 @@ nav {
   color: #67d8cd;
 }
 
+/* PAUL REBUILT OUR STORY */
+
+#paul-about {
+  padding: 30px;
+}
+
+#paul-about-content {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  align-items: center;
+}
+
+#paul-about-right {
+  padding: 20px;
+}
+
+#paul-about-right h2 {
+  color: #222;
+  text-align: center;
+}
+
+#paul-about-right p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* END STORY REBUILD */
+
+
 
 /*   OUR STORY STYLES  */
 
